@@ -16,7 +16,7 @@ jobs:
       run: npm ci
 
     - name: Build Vite app
-    - run: npm run build
+      run: npm run build
 
     - name: Sync dist folder to S3
       uses: jakejarvis/s3-sync-action@master
